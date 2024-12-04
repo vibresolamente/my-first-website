@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional College Assignment Ghostwriting Services">
+    <title>College Assignment Helper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1>College Assignment Helper</h1>
+            <p>Your Trusted Ghostwriting Partner for Academic Success</p>
+            <a href="#services" class="cta">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Essay Writing</h3>
+                    <p>Expertly crafted essays tailored to your requirements. Get your essays written by professional
+                        writers!</p>
+                </div>
+                <div class="card">
+                    <h3>Project Writing</h3>
+                    <p>Thorough and well-researched project idears, well written, neat work projects</p>
+                </div>
+                <div class="card">
+                    <h3>Editing & Proofreading</h3>
+                    <p>Polish your work to perfection. We ensure clarity, grammar, and style.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Graphics Design</h3>
+                        <p>Design good looking articles, posters or projects to perfection and eye-cachin designs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Price (Ksh)</th>
+                </tr>
+                <tr>
+                    <td>Essay (250 words)</td>
+                    <td>50 Ksh</td>
+                </tr>
+                <tr>
+                    <td>Project Writting (per page)</td>
+                    <td>50 Ksh</td>
+                </tr>
+                <tr>
+                    <td>Editing & Proofreading</td>
+                    <td>50-100 Ksh per 30pages </td>
+                </tr>
+                <tr>
+                    <td>Graphics Design</td>
+                    <td>50-100 Ksh per page</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm" method="POST" enctype="multipart/form-data">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="details" placeholder="Assignment Details" required></textarea>
+                <input type="file" name="assignmentFile" accept=".doc,.docx,.pdf,.png" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Login/Register Section -->
+    <section id="login" class="login">
+        <div class="container">
+            <h2>Login or Register</h2>
+            <form id="loginForm" method="POST">
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>New user? <a href="#register">Register here</a></p>
+        </div>
+    </section>
+
+    <!-- User Dashboard Section -->
+    <section id="dashboard" class="dashboard">
+        <div class="container">
+            <h2>Your Assignments</h2>
+            <p>Contact us on:</p>
+            <p>Phone: 0112556940</p>
+            <p>Email: vibresolamente@gmail.com</p>
+            <p>Instagram: @vibresolamente</p>
+            <p>Facebook: @vibresolamente</p>
+            <ul id="assignmentList">
+                <!-- Dynamic assignment data will be loaded here -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 College Assignment Helper. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+<button id="backToTop" class="back-to-top">↑</button>
+
+<section id="testimonials" class="testimonials">
+    <div class="container">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p>"This service saved me during finals week! The quality was amazing, and delivery was on time."</p>
+            <strong>- Jane Doe, University of Nairobi</strong>
+        </div>
+        <div class="testimonial">
+            <p>"Highly recommend their proof reading services. Professional and thorough work!"</p>
+            <strong>- John Smith, Kenyatta University</strong>
+        </div>
+    </div>
+</section>
+
+<ul id="assignmentList">
+    <!-- Placeholder for assignments loaded dynamically -->
+</ul>

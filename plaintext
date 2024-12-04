@@ -1,0 +1,7 @@
+assignment-tracker-backend/
+├── server.js
+├── .env
+├── models/
+│   └── Assignment.js
+└── routes/
+    └── assignments.js

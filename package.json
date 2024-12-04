@@ -1,0 +1,6 @@
+"scripts"{
+    "start": "node server.js"
+}
+rmp instal
+npm start
+
